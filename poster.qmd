@@ -25,7 +25,7 @@ $@$Zacharie Grossen](src/avalanche.png)
 $@$Alan Stark](src/duststorm.png)
 :::
 
-
+{{< fa question-circle >}} &nbsp; natural hazards {{< fa arrow-right >}} reliable predictive models ? 
 
 - saline currents, horizontal bottom:
 
@@ -45,11 +45,11 @@ $@$Alan Stark](src/duststorm.png)
 
 ![Sketch of the experimental set up](src/Sketch_lock_release.svg){width=100% fig-align="center"}
 
-Systematic parameter space exploration:
+- Systematic parameter space exploration:
 
-- 2 different set ups: $\theta \in [0^\circ, 15^\circ]$, $h_{0} \in {20, 30}$ cm
-- 5 different particle diameters + saline water
-- particle volume fraction $\phi \in [0.5, 15]~\%$
+  - 2 different set ups: $\theta \in [0^\circ, 15^\circ]$, $h_{0} \in {20, 30}$ cm
+  - 5 different particle diameters + saline water
+  - particle volume fraction $\phi \in [0.5, 15]~\%$
 :::
 
 ::: {.column width="60%" .maincolumn}
@@ -117,8 +117,8 @@ C. Gadal, M. Mercier and L. Lacaze. Insitut de Mécanique des Fluides de Toulous
 
 - Origin of the influence of $\theta$ on $\mathcal{F}r$ ? (early times)
 - How to include this on depth-averaged models ? (to be tested)
-- Influence of lock aspect ratio ($h_{0}/L_{0}$) on velocity ?
-- What about steady influx turbidity currents on slopes ?
+- Influence of lock aspect-ratio ($h_{0}/L_{0}$) on velocity ?
+- What about steady-influx turbidity currents on slopes ?
 
 ![Steady injection of a suspension building a deposit over time.](src/img_steady_input.svg){width=100% fig-align="center"}
 

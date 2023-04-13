@@ -35,7 +35,7 @@ $font-family-sans-serif: Montserrat, sans-serif !default;
 }
 
 .reveal .slides .quarto-figure {
-    margin-bottom: 20px
+    margin-bottom: 10px
 }
 
 .reveal .slides .quarto-figure img {
@@ -114,9 +114,13 @@ $font-family-sans-serif: Montserrat, sans-serif !default;
 }
 
 #posterfooter {
-    bottom: 30%;
+    bottom: 0%;
     margin: 10px;
     color: #4d4d4d;
     font-size: 18px;
     text-align: center;
+}
+
+.reveal .slides [id=posterfooter]>p {
+    margin: 0px;
 }
