@@ -1,0 +1,144 @@
+---
+format:
+  revealjs:
+    theme: [dark, custom.scss]
+    width: 1920
+    height: 1080
+    callout-icon: false
+    slide-number: false
+    margin: 0
+---
+
+:::: {.columns}
+
+::: {.column width="20%" .sidecolumn} 
+
+<h1> Slumping regime in lock-release turbidity currents </h1>
+
+<h2> {{< fa book >}} - Introduction </h2>
+
+::: {layout="[2, 2.59]"}
+![Snow avalanche, Zinal, Switzerland
+$@$Zacharie Grossen](src/avalanche.png)
+
+![Dust storm, Phoenix, USA
+$@$Alan Stark](src/duststorm.png)
+:::
+
+
+
+- saline currents, horizontal bottom:
+
+::: {layout-ncol=2 layout-valign="top"}
+
+![Rottman et al. 1983](src/Rottman1983.svg)
+
+- $u_{\rm c} \simeq 0.5 u_{0} = 0.5 \sqrt{g' h_{0}}$
+- $t_{\rm end} \simeq 20 t_{0} = 20 L_{0}/u_{0}$
+- constant prefactors
+
+:::
+
+{{< fa question-circle >}} &nbsp; dynamics of particle-ladden currents on slopes ?
+
+<h2> {{< fa gears >}} - Methods </h2>
+
+![Sketch of the experimental set up](src/Sketch_lock_release.svg){width=100% fig-align="center"}
+
+Systematic parameter space exploration:
+
+- 2 different set ups: $\theta \in [0^\circ, 15^\circ]$, $h_{0} \in {20, 30}$ cm
+- 5 different particle diameters + saline water
+- particle volume fraction $\phi \in [0.5, 15]~\%$
+:::
+
+::: {.column width="60%" .maincolumn}
+
+
+![Slumping of a suspension of silica sand ($d\sim180~\mu$m).](src/images.png){fig-align="center"}
+
+![](src/QRcodes/video_lock_release.svg){.absolute top=20 left=1430 width=50 height=50 #QRcodemain}
+
+::: {#mainMessage}
+**Bottom slope** and **particle settling** matters for **turbidity current** slumping dynamics !
+:::
+
+![](src/QRcodes/paper.svg){.absolute top=320 left=1340 width=100 height=100 #QRcodemain}
+
+:::: {style="max-width: 50%; margin: 50px auto; border-bottom: 3px solid #71767a;"}
+::::
+
+
+:::: {.columns}
+
+::: {.column width="49%"}
+#### Bottom slope increases velocity
+
+![](src/figure_slope.svg){width=100% fig-align="center"}
+
+
+:::
+
+::: {.column width="49%"}
+#### Settling decreases regime duration
+
+![](src/figure_duration.svg){width=100% fig-align="center"}
+
+:::
+
+
+::::
+
+::: {#posterfooter}
+C. Gadal, M. Mercier and L. Lacaze. Insitut de Mécanique des Fluides de Toulouse (IMFT), France
+:::
+
+:::
+
+::: {.column width="20%" .sidecolumn} 
+
+::: {style='text-align:center' #logos}
+![](src/EGU22-sharing-is-encouraged.png){height=70px fig-align="right" #Logoimage}
+![](src/logo_IMFT.jpg){height=70px fig-align="right" #Logoimage}
+![](src/E6wIobtX0AENFpM.png){height=70px fig-align="right" #Logoimage}
+:::
+
+<h2> {{< fa lightbulb >}} - Results </h2>
+
+- Existence of a constant-velocity regime on a sloping bottom {{< fa arrow-right >}} slope-induced acceleration occurs later (Birman et al. 2007)
+- Bottom slope increases this velocity
+- Settling decreases the constant-velocity regime duration
+
+- Current head shape ($\sim L_{0}$ behind nose) independant of $\phi$, $v_{\rm s}$ and $\theta$
+
+![](src/figure_qualitative_shape_comparison.svg){width=100% fig-align="center"}
+
+<h2> {{< fa file-circle-question >}} - Discussion/Perspectives </h2>
+
+- Origin of the influence of $\theta$ on $\mathcal{F}r$ ? (early times)
+- How to include this on depth-averaged models ? (to be tested)
+- Influence of lock aspect ratio ($h_{0}/L_{0}$) on velocity ?
+- What about steady influx turbidity currents on slopes ?
+
+![Steady injection of a suspension building a deposit over time.](src/img_steady_input.svg){width=100% fig-align="center"}
+
+![](src/QRcodes/video_lock_release.svg){.absolute top=720 right=10 #QRcodeside}
+
+
+<h2> {{< fa spell-check >}} - Definitions </h2>
+
+- slumping regime: first, constant-velocity, phase of current propagation (see intro)
+
+- $u_{0} = \sqrt{(\delta\rho/\rho_{\rm f})\phi g h_{0}}$: characteristic slumping velocity
+
+- $\delta\rho = \rho_{\rm p} - \rho_{\rm f}$: excess particle density
+
+- $t_{0} = L_{0}/u_{0}$: characteristic slumping time
+
+- $v_{\rm s}$: particle settling velocity
+
+- $t_{\rm s} = h_{0}/v_{\rm s}$: characteristic settling time
+
+:::
+
+::::

@@ -1,0 +1,122 @@
+// /*-- scss:defaults --*/
+
+$body-bg: #ffffff;
+$body-color: #000000;
+$link-color: #000000;
+
+$main-bg: #d4e6f1;
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700,400italic,700italic);
+
+@import url(https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css);
+
+
+// // fonts
+$font-family-sans-serif: Montserrat, sans-serif !default;
+
+/*-- scss:rules --*/
+
+.reveal section {
+    border: 2px solid red
+}
+
+.reveal .slides ul ul {
+    list-style-type: circle;
+    font-size: 85%;
+}
+
+.reveal .slides figcaption {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.reveal .slides .small {
+    font-size: smaller;
+}
+
+.reveal .slides .quarto-figure {
+    margin-bottom: 20px
+}
+
+.reveal .slides .quarto-figure img {
+    margin-bottom: 0px
+}
+
+/*-- scss:rules poster --*/
+
+.reveal .slides .sidecolumn {
+    height: 100%;
+    font-size: small;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.reveal .slides .maincolumn {
+    height: 100%;
+    background-color: $main-bg;
+    padding: 15px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.reveal .slides .maincolumn h2 {
+    margin: 40px;
+    text-align: center;
+}
+
+.reveal .slides .maincolumn h3 {
+    margin-bottom: 30px;
+}
+
+.reveal .slides .maincolumn h4 {
+    text-align: center;
+}
+
+.reveal .slides .sidecolumn h2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.reveal .slides .sidecolumn [id=logos]+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.reveal .slides .sidecolumn h1 {
+    margin-bottom: 30px;
+}
+
+#mainMessage {
+    font-size: 150%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#QRcodemain {
+    background-color: $main-bg;
+    border: 2px solid #000000;
+    padding: 2px;
+}
+
+#QRcodeside {
+    background-color: $body-bg;
+    border: 2px solid #000000;
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+}
+
+#Logoimage {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#posterfooter {
+    bottom: 15%;
+    margin: 10px;
+    color: #4d4d4d;
+    font-size: 18px;
+    text-align: center;
+}
