@@ -44,6 +44,10 @@ $font-family-sans-serif: Montserrat, sans-serif !default;
 
 /*-- scss:rules poster --*/
 
+html.print-pdf body {
+    overflow: clip;
+}
+
 .reveal .slides .sidecolumn {
     height: 100%;
     font-size: small;
@@ -114,7 +118,7 @@ $font-family-sans-serif: Montserrat, sans-serif !default;
 }
 
 #posterfooter {
-    bottom: 15%;
+    bottom: 30%;
     margin: 10px;
     color: #4d4d4d;
     font-size: 18px;
