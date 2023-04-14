@@ -100,9 +100,9 @@ cyril.gadal@imft.fr
 ::: {.column width="20%" .sidecolumn} 
 
 ::: {style='text-align:center' #logos}
-![](src/EGU22-sharing-is-encouraged.png){height=70px fig-align="right" #Logoimage}
-![](src/logo_IMFT.jpg){height=70px fig-align="right" #Logoimage}
-![](src/E6wIobtX0AENFpM.png){height=70px fig-align="right" #Logoimage}
+![](src/EGU22-sharing-is-encouraged.png){height=65px fig-align="right" #Logoimage}
+![](src/logo_IMFT.jpg){height=65px fig-align="right" #Logoimage}
+![](src/E6wIobtX0AENFpM.png){height=65px fig-align="right" #Logoimage}
 :::
 
 <h2> {{< fa lightbulb >}} - Results </h2>

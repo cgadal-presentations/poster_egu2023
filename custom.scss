@@ -47,8 +47,15 @@ $font-family-sans-serif: Montserrat, sans-serif !default;
 .reveal .slides .sidecolumn {
     height: 100%;
     font-size: small;
-    padding: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
     box-sizing: border-box;
+}
+
+.reveal .slides .maincolumn+.sidecolumn {
+    padding-right: 25px;
 }
 
 .reveal .slides .maincolumn {
@@ -111,6 +118,10 @@ $font-family-sans-serif: Montserrat, sans-serif !default;
 #Logoimage {
     margin-right: 5px;
     margin-left: 5px;
+}
+
+.reveal .slides [id=logos]>p {
+    margin: 0px;
 }
 
 #posterfooter {
