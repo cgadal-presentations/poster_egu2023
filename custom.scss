@@ -8,11 +8,13 @@ $main-bg: #d4e6f1;
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700,400italic,700italic);
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic);
+
 @import url(https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css);
 
 
 // // fonts
-$font-family-sans-serif: Montserrat, sans-serif !default;
+$font-family-sans-serif: Roboto, sans-serif !default;
 
 /*-- scss:rules --*/
 
