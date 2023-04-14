@@ -91,6 +91,8 @@ $@$Alan Stark](src/duststorm.png)
 
 ::: {#posterfooter}
 C. Gadal, M. Mercier and L. Lacaze. Institut de Mécanique des Fluides de Toulouse (IMFT), France
+
+cyril.gadal@imft.fr
 :::
 
 :::

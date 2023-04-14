@@ -2,7 +2,7 @@
 
 This repository contains a poster presented at EGU 2023 (refs coming soon).
 
-It can be found online [here](https://cgadal.github.io/https://cgadal.github.io/poster_egu2023/poster.html?print-pdf=#/). 
+It can be found online [here](https://cgadal.github.io/https://cgadal.github.io/poster_egu2023/poster.html#/). 
 
 ## Download the presentation
 
